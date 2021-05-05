@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const Animal = require('../models/Animal');
-// We need { ObjectId} to display API items on localhost browser
+// We need { ObjectId} to display API items on localhost browser. Alternatively, to use _id in try and catch block (instead of 'id')
 const { ObjectId } = mongoose.Types;
 
 // const getAnimals = async (req, res, next) => {

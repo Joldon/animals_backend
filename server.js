@@ -23,5 +23,5 @@ app.use(errorHandler);
 
 
 
-app.listen(5000, () => console.log(`backend app listeninig at http://localhost:5000`.rainbow.bold.inverse)); 
+app.listen(process.env.PORT || 5000, () => console.log(`backend app listeninig at http://localhost:5000`.rainbow.bold.inverse)); 
 
